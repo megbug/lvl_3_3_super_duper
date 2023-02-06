@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'maven-pro-reg';
+    src: url(../fonts/MavenPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'gilda-reg';
+    src: url(../fonts/GildaDisplay-Regular.ttf);
+}
+
+/* ========
+    Header
+======== */
+
+header{
+    background-color: #333;
+    height: 100vh;
+}
+
+header h3{
+    font-family: 'maven-pro-reg';
+    color: #fff;
+    width: 150px;
+    margin-left: 30px;
+    letter-spacing: 5px;
+}
+
+header article{
+    width: 270px;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 275px;
+    margin-bottom: 275px;
+    background-image: linear-gradient(45deg, #8507e1, #3dc8d5);
+}
+
+header article:hover{
+    background-image: linear-gradient(45deg, #3dc8d5, #8507e1);
+}
+
+header article h2{
+    color: #fff;
+    font-family: 'gilda-reg';
+    font-size: 68px;
+    text-align: center;
+}
+
+header article p{
+    color: #fff;
+    font-family: 'maven-pro-reg';
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header nav{
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+header nav a{
+    display: block;
+    color: #cccccc;
+    font-family: 'maven-pro-reg';
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*=============
+    main
+=============*/
+
+main{
+    background: url(../img/backimg.svg) no-repeat;
+    margin-left: 200px;
+    margin-top: 400px;
+}
+
+main section{
+    width: 480px;
+    margin-left: 0;
+}
+
+main section h1{
+    font-family: 'gilda-reg';
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+main section p:nth-of-type(1){
+    font-family: 'maven-pro-reg';
+    line-height: 25px;
+}
+
+main section p:nth-of-type(2){
+    font-family: 'maven-pro-reg';
+    line-height: 60px;
+    margin-bottom: 400px;
+}
+
+.img{
+    width: 700px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+main article .h4_headline{
+    font-family: 'gilda-reg';
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+main article .h5_headline{
+    font-family: 'maven-pro-reg';
+    font-size: 20px;
+    margin-bottom: 300px;
+    text-transform: uppercase;
+}
